@@ -97,7 +97,7 @@ donate:
     title: 微信支付
   # 支付宝打赏
   alipay: 
-    qrcode: images/weixin.jpg
+    qrcode: images/zhifubao.jpg
     title: 支付宝
 
 # Share
@@ -115,7 +115,7 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: valine  # 启用哪种评论系统
+  type: valine  # 启用哪种评论系统 集成了disqus、友言、来必力、gitment、gitalk评论系统，选择其中一种即可
   disqus:  # enter disqus shortname here
   youyan: 
     uid:  # enter youyan uid 
@@ -134,12 +134,12 @@ comment:
     ClientID:  #必须. GitHub Application Client ID.
     ClientSecret:  #必须. GitHub Application Client Secret.
   valine: # Valine官方地址: https://valine.js.org
-    appid:  # 你的 leancloud 应用 appid
-    appkey:  # 你的 leancloud 应用 appkey
+    appid: 9qzcCSNQltNOliRHEXrKlgeR-gzGzoHsz  # 你的 leancloud 应用 appid
+    appkey: Ei4uB8XqNBYgQ87K0rjwQMsq  # 你的 leancloud 应用 appkey
     notify: false # 是否开始评论邮件提醒, 教程: https://github.com/xCss/Valine/wiki
     verify: false # 是否开始验证码功能, 开始邮件提醒会自动开启验证码功能
     placeholder: 说点什么... # 输入框默认内容
-    avatar: mm # 头像展示方式, 具体设置项教程: https://valine.js.org/configuration.html#avatar
+    avatar: mp # 头像展示方式, 具体设置项教程: https://valine.js.org/configuration.html#avatar
     meta: nick,mail,link # 自定义评论信息
     pageSize: 10 # 评论列表分页
     lang: zh-cn, # 多语言支持 zh-cn | en
